@@ -35,8 +35,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Wall
+  - Portal
   m_SortingLayers:
   - name: Default
     uniqueID: 0

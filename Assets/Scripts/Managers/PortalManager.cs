@@ -1,5 +1,6 @@
 using Player;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 namespace Managers
 {
@@ -7,36 +8,36 @@ namespace Managers
     {
         private PlayerInfo _playerData;
 
-       
 
         public void Start()
         {
-           
+        
             _playerData =  GameObject.Find("Player").GetComponent<PlayerInfo>() as PlayerInfo;
-            
+         
         }
 
         private void OnTriggerEnter(Collider other)
         {
          
-            _playerData.ChangeSize();
-            _playerData.FirstTimeInPortal = !_playerData.FirstTimeInPortal;
+            _playerData.IsInPortal = true;
+        }
 
+        private void ChangeSize()
+        {_playerData.ChangeSize();
         }
 
         private void OnTriggerExit(Collider other)
         {
          
-          
-      
-        
-            Debug.Log("salio");
+            Invoke(nameof(ChangeSize),0.1f);
+            _playerData.IsInPortal = false;
         }
 
         private void OnTriggerStay(Collider other)
         {
-            Debug.Log("stay");
-            _playerData.FirstTimeInPortal = _playerData.FirstTimeInPortal;
+           
         }
+
+     
     }
 }

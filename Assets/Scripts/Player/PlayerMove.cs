@@ -40,6 +40,8 @@ namespace Player
             {
                 MovePlayer(Vector3.right);
             }
+            
+            
         }
     
         private void MovePlayer(Vector3 direction)

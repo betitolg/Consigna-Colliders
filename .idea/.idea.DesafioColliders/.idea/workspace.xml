@@ -4,6 +4,12 @@
     <list default="true" id="20bc8caa-0f40-47a4-af2b-26bfe075303f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DesafioColliders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DesafioColliders/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EscenaDesafio9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EscenaDesafio9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/PortalManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/PortalManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Wall/WallCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Wall/WallCollision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Clase09 - Profe/unity-clase09-32940/CLASE 09 - COLISIONES/Assets/Scripts/Managers/PortalManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerCollision.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -75,7 +82,8 @@
       <updated>1659668635581</updated>
       <workItem from="1659668639218" duration="106000" />
       <workItem from="1659712243575" duration="51000" />
-      <workItem from="1659712372594" duration="10227000" />
+      <workItem from="1659712372594" duration="10255000" />
+      <workItem from="1659799364084" duration="8472000" />
     </task>
     <servers />
   </component>
